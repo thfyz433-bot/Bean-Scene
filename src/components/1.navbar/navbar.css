@@ -1,5 +1,6 @@
 .container-full{
   background-image: url("/coffee_image.png");
+  
 }
 .container-nav nav.flex{
     justify-content: space-between;
@@ -70,6 +71,78 @@
 
 
 
+.menu-links{
+    position: fixed;
+    inset: 0;
+    background-color:#603709c4 ;
+    color: aliceblue;
+    z-index: 1000;
+    
+}
+
+
+.menu-links2 li{
+    display: block;
+    border-bottom: 1px solid #f9c06a7d;
+     padding: 20px ;
+}
+
+.menu-links2 li a:hover{
+    color: var(--bottom);
+    transition: 0.3s;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+
+.menu-links2 li:last-child{
+    border: none;
+}
+ 
+ .container-full .menu-links2{
+   width: 70%;
+   margin: auto;
+   background-color: #603709c4 ;
+   margin-top: 70px;
+   border-radius: 20px;
+    padding-top: 50px;
+}
+
+  .menu-links .icons svg{
+     position: relative;
+     left: 980px;
+     top: 130px;
+     font-size: 30px;
+      color: #F9C06A;
+     
+ }
+
+ .menu-links .icons svg:active{
+      scale: 0.90;
+ }
+
+.menu-icon{
+    font-size: 35px;
+    color: aliceblue;
+    border: 1px solid #724d21be;
+    background-color: #6d4313;
+    border-radius: 50%;
+    padding: 10px 15px 5px ;
+    color: #F9C06A;
+    text-align: center;
+     display: none;
+}
+
+@media(max-width:768px){
+    .nav{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
+}
+
 
 
 
@@ -128,4 +201,34 @@ box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.299);
 
 .bottom button:active{
     scale: 0.90;
+}
+
+
+@media(max-width:1024px){
+     .container-hero{
+         padding-right: 600px;
+     }
+}
+
+@media(max-width:768px){
+    .text-hero span{
+        font-size: 10px;
+    }
+
+    .text-hero h1{
+        font-size: 50px;
+    }
+    .text-hero p{
+        font-size: 10px;
+    }
+
+    .container-hero{
+   padding-right: 100px;
+
+    }
+
+.bottom button{
+    font-size: 10px;
+}
+
 }

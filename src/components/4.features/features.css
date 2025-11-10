@@ -86,3 +86,38 @@ box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.299);
 .bottom-features button:active{
     scale: 0.90;
 }
+
+
+
+@media(max-width:1024px){
+     .container-features .coffee_blast{
+          position: absolute;
+    right: 25px;
+    top: 1700px;
+     }
+  
+     .container-features .col{
+        width: 200px;
+     }
+
+}
+
+
+@media (max-width:768px){
+    .container-features .coffee_blast{
+    position: absolute;
+    right: 10px;
+    top: 2270px;
+    width: 200px;
+}
+
+.sub-container{
+    margin-top: 50px;
+}
+
+.container-features .row{
+    margin-left: 0px;
+   flex-direction: column;
+   align-items: center;
+}
+}

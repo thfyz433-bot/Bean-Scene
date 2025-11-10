@@ -75,3 +75,59 @@ box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.299);
 .button-menu:active{
     scale: 0.90;
 }
+
+
+@media(max-width:1024px){
+       .container-menu img{
+        width: 150px;
+       }
+}
+
+@media(max-width:768px){
+      .container-menu img{
+    width: 150px;
+}
+
+
+.container-menu .menu{
+    padding-left: 0px;
+}
+
+.container-menu h2{
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: var(--sucandry-font);
+}
+
+.container-menu p{
+    font-size: 10px;
+    padding: 15px 25px;
+    display: inline-block;
+    color: var(--color);
+}
+
+.container-menu .col h3{
+    color: var(--sucandry-font);
+    padding: 5px 0;
+    font-size: 14px;
+}
+
+.container-menu .col span{
+font-size: 10px;
+}
+
+.button-menu{
+    font-size: 10px;
+    padding: 10px;
+}
+.container-menu .col{
+    width: 150px;
+    align-self: center;
+    margin: 30px 0;
+}
+
+.container-menu .menu{
+    flex-direction: column;
+}
+
+}

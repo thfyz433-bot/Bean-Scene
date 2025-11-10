@@ -62,3 +62,40 @@
 
 
 }
+
+@media(max-width:1024px){
+     .pngwing1{
+    position: absolute;
+    top: 3750px;
+   
+    width: 200px;
+     }
+
+     .pngwing2{
+    position: absolute;
+    width: 200px;
+    left: 800px;
+    top: 3750px;
+
+
+}
+
+}
+
+@media (max-width:768px){
+    .pngwing1{
+    position: absolute;
+    top: 3570px;
+    width: 100px;
+
+}
+
+.pngwing2{
+    position: absolute;
+    width: 100px;
+    left: 230px;
+    top: 4570px;
+
+
+}
+}

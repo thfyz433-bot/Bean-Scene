@@ -9,13 +9,17 @@
      gap: 100px;
 }
 
-.col1{
- 
-}
 
 
 .container-foter .row p{
     font-size: 14px;
     margin-top: 10px;
     line-height: 20px;
+}
+
+
+@media(max-width:768px){
+    .container-foter{
+        display: none;
+    }
 }

@@ -58,3 +58,62 @@ box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.299);
    top: 1105px;
 }
 
+
+@media(max-width:1024px){
+      .img{
+        position: absolute;
+   left: 24px;
+   top: 1150px;
+      }
+
+      .button-home button{
+        margin-top: 50px;
+      }
+
+   
+      
+}
+
+   @media (max-width:768px) {
+            .container-home .row img{
+                width: 100px;
+                height: 300px;
+            }
+
+             .container-home .row {
+    gap: 10px;
+    padding: 0 50px;
+}
+
+.text-home{
+    position: relative;
+    top: 0px;
+}
+
+.text-home h2{
+    font-size: 20px;
+    color: var(--sucandry-font);
+    padding-bottom: 20px;
+}
+
+.text-home p{
+    font-size: 10px;
+    line-height: 25px;
+}
+
+.button-home button{
+     position: relative;
+   left: 50px;
+   bottom: 80px;
+    font-size: 10px;
+}
+
+.img{
+    all: unset;
+    width: 200px;
+   position: absolute;
+   left: 10px;
+   top: 1000px;
+}
+
+      }

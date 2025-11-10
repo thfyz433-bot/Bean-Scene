@@ -48,6 +48,7 @@
 
   .app{
     background-color: #603809;
+    
   }
 
   button{
@@ -87,7 +88,7 @@
   color: #1E1E1E;
   border-radius: 50%;
   position: fixed;
- right: 70px;
+ right: 500px;
  bottom: 120px;
   
   

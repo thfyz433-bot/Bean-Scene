@@ -1,10 +1,22 @@
+import { useState } from 'react'
+import { LuMenu } from "react-icons/lu";
+import { IoMdClose } from "react-icons/io";
+
 import './navbar.css'
 
 export default function NavBar() {
+ const [menu ,setmenu]=useState(false);
   return (
 < div className='container-full'>
     <div className="container-nav">
-          <nav  className=" flex">
+
+      <button  className='menu-icon' 
+         onClick={() => { 
+          setmenu(true);
+          }}
+      ><LuMenu /></button>
+
+          <nav  className=" flex nav">
             <a href=""><h1>Bean Scene</h1></a>
             <ul className="flex ">
                 <li><a href="#home">Home</a></li>
@@ -17,7 +29,25 @@ export default function NavBar() {
                 <span className='sing'><a href="">Sing Up</a></span>
             </div>
           </nav>
+  {menu && (
+    <div className="menu-links">
+      <button className='icons' onClick={() => { 
+        setmenu(false);
+       }}
+      
+      ><IoMdClose/></button>  
+ <ul className="menu-links2">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+      </ul>
     </div>
+  )} 
+
+
+</div>
+
 
 
  <div id='home' className='container-hero'>
@@ -31,6 +61,8 @@ export default function NavBar() {
                   <button type='submit'>Order Now</button>
             </div>
     </div>
+
+ 
     </div>
   )
 }
