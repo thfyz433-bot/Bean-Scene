@@ -1,10 +1,10 @@
 .container-contact{
-     background-image: url('Rectangle 14 (1).png') ;
+     background-image: url('/Rectangle 14 (1).png') ;
     color: var(--font-color);
 }
 
 .contact{
-     background-image: url('Rectangle 16.png');
+     background-image: url('/Rectangle 16.png');
      padding-top: 70px;
      padding-bottom: 50px;
 }

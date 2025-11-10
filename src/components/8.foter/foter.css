@@ -1,10 +1,10 @@
 .container-foter{
-    background-image: url("Rectangle 7 (1).png");
+    background-image: url("/Rectangle 7 (1).png");
     color: var(--font-color);
 }
 
 .container-foter .row{
-     background-image: url("fotter_image.png");
+     background-image: url("/fotter_image.png");
      padding: 150px 70px 100px;
      gap: 100px;
 }

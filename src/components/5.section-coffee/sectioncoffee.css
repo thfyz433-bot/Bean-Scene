@@ -1,5 +1,5 @@
 .section-coffee{
-    background-image: url('Rectangle 14 (1).png') ;
+    background-image: url('/Rectangle 14 (1).png') ;
     color: var(--font-color);
    
     
@@ -13,7 +13,7 @@
 
 
 .container-section{
-    background-image: url('Rectangle 16.png');
+    background-image: url('/Rectangle 16.png');
      padding-top: 50px;
      padding-left: 150px;
     

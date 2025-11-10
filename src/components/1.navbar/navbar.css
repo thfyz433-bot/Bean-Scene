@@ -1,5 +1,5 @@
 .container-full{
-  background-image: url(coffee_image.png);
+  background-image: url("/coffee_image.png");
 }
 .container-nav nav.flex{
     justify-content: space-between;
