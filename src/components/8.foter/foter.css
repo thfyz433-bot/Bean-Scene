@@ -1,0 +1,21 @@
+.container-foter{
+    background-image: url("Rectangle 7 (1).png");
+    color: var(--font-color);
+}
+
+.container-foter .row{
+     background-image: url("fotter_image.png");
+     padding: 150px 70px 100px;
+     gap: 100px;
+}
+
+.col1{
+ 
+}
+
+
+.container-foter .row p{
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 20px;
+}

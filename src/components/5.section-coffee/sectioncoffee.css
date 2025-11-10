@@ -1,0 +1,57 @@
+.section-coffee{
+    background-image: url('Rectangle 14 (1).png') ;
+    color: var(--font-color);
+   
+    
+}
+.section-coffee .cup{
+     width: 200px;
+      position: relative;
+    left: 220px;
+}
+
+
+
+.container-section{
+    background-image: url('Rectangle 16.png');
+     padding-top: 50px;
+     padding-left: 150px;
+    
+}
+
+.container-section h2{
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.container-section p{
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 30px;
+    
+}
+
+.container-section button{
+    margin-top: 30px;
+    border: 1px solid var(--bottom);
+    padding: 10px 20px;
+    background-color: var(--bottom);
+    border-radius: 20px;
+    color: var( --font-bottom);
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.299);
+
+}
+
+.container-section button:hover{
+    color: var(  --sub-title);
+    transition: 0.3s;
+}
+.container-section button:active{
+    scale: 0.90;
+}
+
+.coffee_bean{
+    width: 350px;
+    height: 320px;
+     
+}

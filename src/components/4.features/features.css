@@ -1,0 +1,88 @@
+.container-features{
+    padding-top: 100px;
+    background-color: var(--font-color);
+}
+
+.container-features .coffee_blast{
+    position: absolute;
+    right: 30px;
+    top: 1700px;
+    
+}
+.sub-container{
+    margin-top: 100px;
+}
+.text-features{
+    text-align: center;
+}
+
+.text-features h2{
+    font-size: 45px;
+    letter-spacing: 0.90px;
+    color: var(--sucandry-font);
+}
+.text-features p{
+    color: var(--color);
+    margin-top: 10px;
+}
+
+.container-features .row{
+    margin-left: 70px;
+    gap: 20px;
+    margin-top: 50px;
+   text-align: center;
+}
+
+.container-features .col{
+   background-color: rgba(249, 222, 222, 0.397);
+   padding: 10px;
+   padding: 10px 30px ;
+   width: 250px;
+}
+
+.container-features h3{
+    color: var(--sucandry-font);
+    margin: 5px 0;
+}
+
+.container-features .col p{
+    color: var(--color);
+}
+
+.bottom-features{
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.bottom-features p{
+    color: var(--color);
+
+}
+
+.bottom-features h3{
+    font-size: 30px;
+}
+
+.bottom-features button{
+    border: 1px var(--bottom) solid;
+    margin: 20px 0 30px 0;
+    background-color: var(--bottom);
+    padding: 10px 40px;
+    border-radius: 25px;
+    font-weight: 600;
+box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.299);
+}
+
+.bottom-features p{
+    font-size: 14px;
+
+}
+
+.bottom-features button:hover{
+    color: var(--sub-title);
+    transition: all 0.3s;
+}
+.bottom-features button:active{
+    scale: 0.90;
+}

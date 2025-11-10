@@ -1,0 +1,60 @@
+.container-home{
+    background-color: var(--background-color);
+    padding-top: 130px;
+    
+}
+
+.container-home .row img{
+    width: 400px;
+    
+}
+.container-home .row {
+    gap: 100px;
+    padding: 0 70px;
+}
+.text-home{
+    position: relative;
+    top: 90px;
+}
+
+.text-home h2{
+    font-size: 30px;
+    color: var(--sucandry-font);
+    padding-bottom: 20px;
+}
+
+.text-home p{
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.button-home button{
+   position: relative;
+   left: 70px;
+   bottom: 80px;
+   border: 1px solid var(--bottom);
+   background-color: var(--bottom);
+   padding: 10px 15px;
+   color: var(--font-bottom);
+   border-radius: 20px;
+box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.299);
+
+}
+
+.button-home button:hover{
+    color: var(--sub-title);
+    transition: 0.3s;
+}
+
+.button-home button:active{
+    scale: 0.90;
+}
+
+.img{
+    all: unset;
+    width: 300px;
+   position: absolute;
+   left: 30px;
+   top: 1105px;
+}
+

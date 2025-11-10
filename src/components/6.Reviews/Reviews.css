@@ -1,0 +1,76 @@
+.Reviews-container{
+    background-color: var(--font-color);
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.text-Reviews{
+    text-align: center;
+}
+
+.text-Reviews h2{
+    font-size: 40px;
+    color: var( --sucandry-font);
+
+}
+
+.text-Reviews p{
+    margin: 20px 0;
+    color: var(--color);
+}
+
+.section-Reviews{
+    width: 800px;
+    margin: auto;
+    text-align: center;
+    background-color:  rgba(249, 222, 222, 0.397);;
+    border: 1px solid rgba(255, 203, 203, 0.715); ;
+    padding: 100px 50px 70px 50px;
+    padding-top: 100px;
+    
+}
+
+.Reviews-container .icon{
+    all: unset;
+    font-size: 200px;
+    position: absolute;
+    left: 270px;
+    top: 2940px;
+    color: var(   --sucandry-font);
+}
+
+.section-Reviews p{
+    color: var(--color);
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.section-Reviews h3{
+    color: var(--sucandry-font);
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.section-Reviews span{
+    font-size: 15px;
+    color: var(--color);
+}
+ img.Rectangle{
+    width: 80px;
+   margin-left: 560px;
+  margin-top: -30px;
+}
+
+.section-Reviews{
+    margin-top: 50px;
+}
+.coffee_blast2{
+    position: absolute;
+    top: 2850px;
+    left: 790px;
+}
+
+.coffee_blast3{
+    position: absolute;
+    top: 3270px;
+}

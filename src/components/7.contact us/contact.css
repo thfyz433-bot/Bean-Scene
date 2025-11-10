@@ -1,0 +1,64 @@
+.container-contact{
+     background-image: url('Rectangle 14 (1).png') ;
+    color: var(--font-color);
+}
+
+.contact{
+     background-image: url('Rectangle 16.png');
+     padding-top: 70px;
+     padding-bottom: 50px;
+}
+.text-contact{
+    text-align: center;
+}
+
+.text-contact h2{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.form{
+    justify-self: center;
+    margin-top: 50px;
+}
+
+.form #email{
+   width: 300px;
+   border-radius: 10px;
+   padding: 10px;
+}
+
+.form button{
+    border: 1px solid var( --bottom);
+    background-color: var( --bottom);
+    color: var(  --font-bottom);
+    padding: 7px 20px;
+    border-radius: 10px;
+    position: relative;
+    top: 3px;
+    right: 20px;
+}
+
+.form button:hover{
+    color: var(--font-color);
+    transition: 0.3s;
+}
+
+.form button:active{
+    scale: 0.95;
+}
+
+.pngwing1{
+    position: absolute;
+    top: 3570px;
+    width: 300px;
+
+}
+.pngwing2{
+    position: absolute;
+    width: 300px;
+    left: 930px;
+    top: 3570px;
+
+
+}
