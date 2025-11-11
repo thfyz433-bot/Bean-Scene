@@ -119,8 +119,9 @@
     height: 200px;
      position: absolute;
      top: 3845px;
-     left: 220px;
+     left: 120px;
      z-index: 0;
+     display: none;
 }
 
 .container-section{

@@ -76,13 +76,13 @@ box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.299);
 
    @media (max-width:768px) {
             .container-home .row img{
-                width: 100px;
+                width: 150px;
                 height: 300px;
             }
 
              .container-home .row {
     gap: 10px;
-    padding: 0 50px;
+    padding: 0 30px;
 }
 
 .text-home{
@@ -104,7 +104,7 @@ box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.299);
 .button-home button{
      position: relative;
    left: 50px;
-   bottom: 80px;
+   bottom: 50px;
     font-size: 10px;
 }
 
@@ -112,8 +112,8 @@ box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.299);
     all: unset;
     width: 200px;
    position: absolute;
-   left: 10px;
-   top: 1000px;
+   left: 9px;
+   top: 1150px;
 }
 
       }

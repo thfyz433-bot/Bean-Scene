@@ -159,15 +159,15 @@ img.Rectangle{
 
 .coffee_blast3{
     position: absolute;
-    top: 4680px;
+    top: 4600px;
     width: 200px;
-
+opacity: 0.80;
 }
 
 .coffee_blast2{
     position: absolute;
-    top: 4150px;
-    left: 220px;
+    top: 4220px;
+    left: 120px;
     width: 200px;
 }
 }

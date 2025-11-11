@@ -223,8 +223,8 @@ box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.299);
     }
 
     .container-hero{
-   padding-right: 100px;
-
+   padding-right: 120px;
+   padding-left: 30px;
     }
 
 .bottom button{

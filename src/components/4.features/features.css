@@ -106,8 +106,8 @@ box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.299);
 @media (max-width:768px){
     .container-features .coffee_blast{
     position: absolute;
-    right: 10px;
-    top: 2270px;
+    right: 9px;
+    top: 2400px;
     width: 200px;
 }
 

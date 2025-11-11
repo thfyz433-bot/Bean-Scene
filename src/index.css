@@ -88,7 +88,7 @@
   color: #1E1E1E;
   border-radius: 50%;
   position: fixed;
- right: 500px;
+ right: 100px;
  bottom: 120px;
   
   
@@ -98,4 +98,21 @@
   scale: 0.90;
   color: var(--sub-title);
   transition: 0.3s;
+}
+
+@media(max-width:768px){
+  .scroll2top{
+  border: 1px solid  #F9C06A;
+  background-color: #F9C06A;
+  padding: 17px ;
+  font-size: 20px;
+  opacity: 0.85;
+  color: #1E1E1E;
+  border-radius: 50%;
+  position: fixed;
+ right: 50px;
+ bottom: 120px;
+  
+  z-index: 1000;
+}
 }

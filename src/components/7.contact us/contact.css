@@ -87,7 +87,7 @@
     position: absolute;
     top: 3570px;
     width: 100px;
-
+display: none;
 }
 
 .pngwing2{
@@ -96,6 +96,6 @@
     left: 230px;
     top: 4570px;
 
-
+display: none;
 }
 }
