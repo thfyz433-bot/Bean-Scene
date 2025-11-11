@@ -9,7 +9,7 @@
 }
 
 .container-nav{
-    padding: 20px 35px 10px 35px;
+    padding: 0px 35px 10px 35px;
 }
 
 .container-nav nav ul li{
@@ -166,7 +166,7 @@
  .menu-icon{
    position: relative;
    left: 210px;
-   top: 5px;
+   top: 25px;
      font-size: 30px;
 
 }
@@ -181,7 +181,7 @@
 
  .container-full{
   background-image: url("/coffee_image3.png");
-  object-fit:fill;
+  
 }
 
 
