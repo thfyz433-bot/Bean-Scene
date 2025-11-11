@@ -9,7 +9,7 @@ export default function NavBar() {
   return (
 < div className='container-full'>
     <div className="container-nav">
-
+     <a href="" className='h1' ><h1>Bean Scene</h1></a>
       <button  className='menu-icon' 
          onClick={() => { 
           setmenu(true);
@@ -31,12 +31,14 @@ export default function NavBar() {
           </nav>
   {menu && (
     <div className="menu-links">
-      <button className='icons' onClick={() => { 
+            
+        
+ <ul className="menu-links2">
+  <button className='icons' onClick={() => { 
         setmenu(false);
        }}
       
-      ><IoMdClose/></button>  
- <ul className="menu-links2">
+      ><IoMdClose/></button>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#menu">Menu</a></li>
                 <li><a href="#about">About Us</a></li>
@@ -51,6 +53,8 @@ export default function NavBar() {
 
 
  <div id='home' className='container-hero'>
+    
+
             <div className="text-hero">
                 <span>We’ve got your morning covered with</span>
                 <h1>Coffee</h1>

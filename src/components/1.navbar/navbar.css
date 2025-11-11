@@ -77,6 +77,8 @@
     background-color:#603709c4 ;
     color: aliceblue;
     z-index: 1000;
+    animation: icon 0.7s 1;
+   backdrop-filter: blur(5px);
     
 }
 
@@ -106,13 +108,15 @@
    background-color: #603709c4 ;
    margin-top: 70px;
    border-radius: 20px;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
   .menu-links .icons svg{
      position: relative;
-     left: 980px;
-     top: 130px;
+     /* left: 980px;
+     top: 130px; */
+    inset: 80%;
+    left: 2700%;
      font-size: 30px;
       color: #F9C06A;
      
@@ -120,7 +124,13 @@
 
  .menu-links .icons svg:active{
       scale: 0.90;
+
  }
+
+  .menu-links .icons svg:hover{
+  rotate: 180deg;
+        transition: 0.2s;
+  }
 
 .menu-icon{
     font-size: 35px;
@@ -134,6 +144,8 @@
      display: none;
 }
 
+
+
 @media(max-width:768px){
     .nav{
         display: none;
@@ -141,6 +153,38 @@
     .menu-icon{
         display: block;
     }
+      .menu-links .icons svg{
+     position: relative;
+     /* left: 980px;
+     top: 130px; */
+    inset: 80%;
+    left: 650%;
+     font-size: 30px;
+      color: #F9C06A;
+     z-index: 1000;
+ }
+ .menu-icon{
+   position: relative;
+   left: 210px;
+   top: 5px;
+     font-size: 30px;
+
+}
+
+.container-full .h1{
+    color: aliceblue;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    font-size: 20px;
+ }
+
+ .container-full{
+  background-image: url("/coffee_image3.png");
+  object-fit:fill;
+}
+
+
 }
 
 
@@ -216,7 +260,7 @@ box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.299);
     }
 
     .text-hero h1{
-        font-size: 50px;
+        font-size: 70px;
     }
     .text-hero p{
         font-size: 10px;
@@ -231,4 +275,10 @@ box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.299);
     font-size: 10px;
 }
 
+}
+
+@keyframes icon{
+    0%{scale:0;}
+    60%{scale: 1.2;}
+    100%{scale:1;}
 }
