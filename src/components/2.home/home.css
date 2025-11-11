@@ -104,7 +104,7 @@ box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.299);
 .button-home button{
      position: relative;
    left: 50px;
-   bottom: 50px;
+   bottom: 30px;
     font-size: 10px;
 }
 
@@ -114,6 +114,7 @@ box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.299);
    position: absolute;
    left: 9px;
    top: 1150px;
+   
 }
 
       }

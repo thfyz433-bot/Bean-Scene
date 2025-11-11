@@ -144,30 +144,29 @@ img.Rectangle{
 
 .Reviews-container .icon{
     all: unset;
-    font-size: 200px;
+    font-size: 150px;
     position: absolute;
     left: 90px;
-    top: 4125px;
+    top: 4375px;
     color: var(   --sucandry-font);
 }
 
  img.Rectangle{
     width: 80px;
-   margin-left: 170px;
+   margin-left: 130px;
   margin-top: -30px;
 }
 
 .coffee_blast3{
     position: absolute;
-    top: 4600px;
+    top: 4800px;
     width: 200px;
-opacity: 0.80;
 }
 
 .coffee_blast2{
     position: absolute;
-    top: 4220px;
-    left: 120px;
+    top: 4340px;
+    left: 151px;
     width: 200px;
 }
 }

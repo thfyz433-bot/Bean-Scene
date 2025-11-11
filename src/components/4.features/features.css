@@ -120,4 +120,11 @@ box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.299);
    flex-direction: column;
    align-items: center;
 }
+
+  .container-features .coffee_blast{
+          position: absolute;
+    right: 9px;
+    top: 2470px;
+     }
+  
 }
